@@ -16,6 +16,14 @@ html {
 	}
 }
 
+.logo {
+	position: absolute;
+	width: 40px;
+	height: auto !important;
+	top: 26px;
+	left: 26px;
+}
+
 @media (min-width: 992px) {
 	html {
 		font-size: 18px;
