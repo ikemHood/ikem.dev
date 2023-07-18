@@ -59,9 +59,16 @@ main > .intro {
 
 main > .tagline {
 	font-size: 1.5rem;
-	margin: 1.5rem 0;
+	margin: 1.5rem 0 0.5rem 0;
 	font-weight: 100;
 }
+
+main > .tagline-2 {
+	font-size: 1.2rem;
+	margin: 0.5rem 0 1.8rem 0;
+	font-weight: 100;
+}
+
 
 .icons-social i {
 	padding: 10px;
