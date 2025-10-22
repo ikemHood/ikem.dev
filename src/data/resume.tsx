@@ -694,6 +694,7 @@ export const DATA_ = {
 export const DATA = {
   name: "Ikem Peter",
   initials: "Ikem",
+  favicon: "/fav.png",
   url: "https://www.ikem.dev",
   location: "Lagos, Nigeria",
   locationLink: "https://www.google.com/maps/place/Lagos,+Nigeria",
