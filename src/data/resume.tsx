@@ -35,7 +35,7 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "ikem@vynixlabs.com",
+    email: "ikem@ikem.dev",
     social: {
       GitHub: {
         name: "GitHub",
@@ -57,7 +57,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:ikem@vynixlabs.com",
+        url: "mailto:ikem@ikem.dev",
         icon: Icons.email,
         navbar: false,
       },
