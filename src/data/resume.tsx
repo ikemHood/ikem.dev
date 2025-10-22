@@ -790,42 +790,6 @@ export const DATA = {
       description:
         "Contributed to blockchain research and backend development, focusing on coloniz a decentralized social network from Africa.",
     },
-    // {
-    //   company: "Mingloft",
-    //   href: "https://www.mingloft.com",
-    //   badges: [],
-    //   location: "Freelance",
-    //   title: "Backend Engineer",
-    //   logoUrl: "/mingloft.svg",
-    //   start: "July 2025",
-    //   end: "September 2025",
-    //   description:
-    //     "Built the backend and payment infrastructure powering mingloft service.",
-    // },
-    // {
-    //   company: "Capalyse",
-    //   href: "https://www.capalyse.com",
-    //   badges: [],
-    //   location: "Freelance",
-    //   title: "Backend Engineer",
-    //   logoUrl: "/capalyse.svg",
-    //   start: "August 2025",
-    //   end: "October 2025",
-    //   description:
-    //     "Leading the general development of capalyse and contributed to the backend and AI infrastructure powering Capalyse service.",
-    // },
-    // {
-    //   company: "Braine",
-    //   href: "https://www.braine.io/",
-    //   badges: [],
-    //   location: "Freelance",
-    //   title: "Backend Engineer",
-    //   logoUrl: "",
-    //   start: "August 2025",
-    //   end: "Present",
-    //   description:
-    //     "Leading the backend, AI infrastructure and payment services powering Braine service.",
-    // },
     {
       company: "Vynix Innovation Labs Ltd.",
       href: "https://vynixlabs.com/",
@@ -838,18 +802,6 @@ export const DATA = {
       description:
         "Leading Vynix Innovation Labs, a software development firm specializing in custom software, web and mobile applications, and IT consulting services.",
     },
-    // {
-    //   company: "FlareHubHQ",
-    //   href: "https://flarehub.xyz",
-    //   badges: [],
-    //   location: "Remote",
-    //   title: "Co-Founder",
-    //   logoUrl: "https://flarehub.xyz/flarehub.svg",
-    //   start: "2025",
-    //   end: "Present",
-    //   description:
-    //     "Co-founded a platform connecting Flare Networks communities, talents, and builders.",
-    // },
   ],
   education: [
     {
@@ -871,7 +823,7 @@ export const DATA = {
         "Autonomous AI yield aggregator on AO, optimizing DeFi yields with agents. Finalist in Practical Utility Agents track.",
       technologies: [
         "TypeScript",
-        "Rust",
+        "Lua",
         "AO",
       ],
       links: [
@@ -966,7 +918,6 @@ export const DATA = {
       technologies: [
         "Next.js",
         "TypeScript",
-        "Python",
         "PostgreSQL",
       ],
       links: [
@@ -989,7 +940,6 @@ export const DATA = {
       technologies: [
         "Next.js",
         "TypeScript",
-        "TailwindCSS",
         "PostgreSQL",
       ],
       links: [
@@ -1002,87 +952,23 @@ export const DATA = {
       image: "/kyrooz-dash.png",
       video: "",
     },
-    // {
-    //   title: "Brillx App",
-    //   href: "",
-    //   dates: "2025",
-    //   active: true,
-    //   description:
-    //     "Worked on development of the Brillx app, later handed over to another developer.",
-    //   technologies: [
-    //     "React",
-    //     "Node.js",
-    //   ],
-    //   links: [],
-    //   image: "",
-    //   video: "",
-    // },
-    // {
-    //   title: "Telemedicine dApp",
-    //   href: "",
-    //   dates: "March 2025",
-    //   active: false,
-    //   description:
-    //     "Freelance project on Upwork involving Solidity smart contracts, Node.js/Express backend, and React frontend for a telemedicine decentralized app.",
-    //   technologies: [
-    //     "Solidity",
-    //     "Node.js",
-    //     "React",
-    //   ],
-    //   links: [],
-    //   image: "",
-    //   video: "",
-    // },
-    // {
-    //   title: "Solidity Compiler JS App",
-    //   href: "",
-    //   dates: "March 2025",
-    //   active: false,
-    //   description:
-    //     "JavaScript application for compiling Solidity contracts, handling dependencies and imports.",
-    //   technologies: [
-    //     "JavaScript",
-    //     "TypeScript",
-    //     "Solidity",
-    //   ],
-    //   links: [],
-    //   image: "",
-    //   video: "",
-    // },
-    // {
-    //   title: "YieldWise AI",
-    //   href: "",
-    //   dates: "May 2025",
-    //   active: false,
-    //   description:
-    //     "DeFi app idea using Dune Analytics API and AI for yield farming recommendations.",
-    //   technologies: [
-    //     "React",
-    //     "Node.js",
-    //     "AI/ML",
-    //   ],
-    //   links: [],
-    //   image: "",
-    //   video: "",
-    // },
-    // {
-    //   title: "Decentralized AI Data Platform",
-    //   href: "",
-    //   dates: "May 2025",
-    //   active: false,
-    //   description:
-    //     "Platform integrating AI agents, open government data, rewarding users for contributions, inspired by EU and German initiatives.",
-    //   technologies: [
-    //     "Blockchain",
-    //     "AI",
-    //     "Node.js",
-    //   ],
-    //   links: [],
-    //   image: "",
-    //   video: "",
-    // },
   ],
   hackathons: [
+    // {
+    //   title: "AO Hackathon (Practical Utility Agents Track)",
+    //   dates: "August 2025",
+    //   location: "Online",
+    //   description:
+    //     "Won the Practical Utitlity Agents Track",
+    //   image: "",
+    //   links: [
+    //     {
+    //       title: "X Post",
+    //       icon: <Icons.x className="h-4 w-4" />,
+    //       href: "https://x.com/yield_vaults/status/1964021734182428816",
+    //     },
+    //   ],
+    // },
     {
       title: "AO Hackathon (Practical Utility Agents Track)",
       dates: "September 2025",

@@ -164,12 +164,10 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  I have participated in {DATA.hackathons.length}+ hackathons
+                  and watched teams ship wild ideas in short time. The energy and
+                  ambition in those rooms showed me how much a focused crew can
+                  deliver.
                 </p>
               </div>
             </div>
@@ -213,8 +211,7 @@ export default function Page() {
                 >
                   with a direct question on twitter
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I&apos;ll respond as soon as I can.
               </p>
             </div>
           </BlurFade>
