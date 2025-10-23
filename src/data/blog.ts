@@ -15,6 +15,28 @@ type Metadata = {
   image?: string;
 };
 
+export type BlogListItem = {
+  title: string;
+  publishedAt: string;
+  href: string;
+  external: boolean;
+};
+
+const DEV_TO_POSTS: BlogListItem[] = [
+  {
+    title: "From Localhost to the Cloud: Deploying my First Node.js App with Docker",
+    publishedAt: "2023-08-18",
+    href: "https://dev.to/ikemhood/from-localhost-to-the-cloud-deploying-my-first-nodejs-app-with-docker-1nn3",
+    external: true,
+  },
+  {
+    title: "The Fake Job Listings That Was Just a Front for Pushing Malware - My Story",
+    publishedAt: "2023-09-28",
+    href: "https://dev.to/ikemhood/the-fake-job-listings-that-was-just-a-front-for-pushing-malware-my-story-38f6",
+    external: true,
+  },
+];
+
 function getMDXFiles(dir: string) {
   return fs.readdirSync(dir).filter((file) => path.extname(file) === ".mdx");
 }
@@ -67,4 +89,16 @@ async function getAllPosts(dir: string) {
 
 export async function getBlogPosts() {
   return getAllPosts(path.join(process.cwd(), "content"));
+}
+
+export async function getBlogListItems() {
+  const posts = await getBlogPosts();
+  const localPosts = posts.map((post) => ({
+    title: post.metadata.title,
+    publishedAt: post.metadata.publishedAt,
+    href: `/blog/${post.slug}`,
+    external: false,
+  }));
+
+  return [...localPosts, ...DEV_TO_POSTS];
 }
